@@ -1,0 +1,73 @@
+.navbarContainer {
+  width: 100%;
+  height: 86px;
+  /* border: 1px solid black;
+  background-color: red; */
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+}
+/* nav {
+  width: 100%;
+  height: 96px;
+  border: 1px solid black;
+  background-color: red;
+} */
+.navbarRight {
+  display: flex;
+  gap: 124px;
+
+  list-style-type: none;
+}
+.navbarLeft {
+  display: flex;
+
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  gap: 10px;
+  align-self: center;
+  /* justify-content: space-between; */
+  padding: 0px 16px;
+}
+.liNavbar {
+  padding: 0px 16px;
+  justify-content: center;
+}
+.symbol {
+  height: 42px;
+  width: 42px;
+  border-radius: 30px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* font-weight: bolder; */
+  /* font-size: 2rem; */
+  font-size: 24px;
+
+  color: white;
+}
+.name {
+  white-space: nowrap;
+}
+.contactTypography {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  white-space: nowrap;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  text-align: center;
+}
+.navbarRightParent {
+  display: flex;
+  gap: 124px;
+  align-items: center;
+}

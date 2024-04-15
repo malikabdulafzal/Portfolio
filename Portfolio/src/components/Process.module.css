@@ -1,0 +1,31 @@
+.Parent{
+  display: grid;
+  grid-template-columns: 400px 700px;
+  grid-template-rows: 516px;
+  background-color: rgb(240,241,243);
+  column-gap: 20px;
+  padding: 36px;
+  place-items: center;
+  justify-content: center;
+  align-items: center; 
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+ .cardContainer{
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px  ;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  /* justify-content: center;
+  align-items: center; */
+}
+.processContainer{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+

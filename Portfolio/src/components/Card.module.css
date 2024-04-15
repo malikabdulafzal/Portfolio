@@ -1,0 +1,48 @@
+.parent {
+  display: grid;
+  grid-template-columns: 200px;
+
+padding: 16px;
+
+  border: 1px solid none;
+
+  box-shadow: 0px 20px 27px 0px rgba(142, 138, 138, 0.1);
+  border-radius: 8px;
+  transition: 0.3s;
+  background-color: white !important;
+
+}
+.parent:hover{
+  /* background-color: red; */
+  /* transform: scale(1.1);
+  transform: 0.5s; */
+  transform: translate3D(0,-1px,0) scale(1.06);
+
+}
+.Icon:hover {
+fill:white;
+
+}
+
+
+
+.Heading {
+  font-weight: bolder;
+}
+.iconContainer{
+  padding: 6px;
+  height: 40px;
+  width:40px;
+  background-color: rgb(246,235,254);
+  border-radius: 2px;
+}
+.parent:hover .iconContainer {
+  background-color: blueviolet;
+  transition: 0.5s;
+}
+
+
+.parent:hover .iconContainer svg {
+  fill: white;
+  transition: 0.5s;
+}

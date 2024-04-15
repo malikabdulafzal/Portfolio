@@ -1,0 +1,22 @@
+.infoParent {
+  width: 35%;
+  height: 35%;
+}
+.infoHeading {
+  font-size: 45px;
+}
+.infoBtn {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  white-space: nowrap;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  border-radius: 4px;
+  text-align: center;
+}
+.infoExplain {
+  color: gray;
+}

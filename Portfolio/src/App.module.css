@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+    url(./Fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #f8f9fa !important;
+  font-family: Poppins-Regular, Arial, serif;
+  font-weight: black;
+  width: 100vw;
+  height: 100vh;
+}
+.bgColor {
+  background: linear-gradient(
+    rgb(227, 250, 245),
+    rgb(245, 230, 251),
+    rgb(255, 239, 214)
+  );
+}
+.infoPart {
+  /* width: 100vw;
+  height: 100vh; */
+  /* background: linear-gradient(
+    rgb(227, 250, 245),
+    rgb(245, 230, 251),
+    rgb(255, 239, 214)
+  ); */
+
+  display: flex;
+
+  /* background-color: rgb(245, 221, 251); */
+  justify-content: space-evenly;
+  padding: 80px;
+
+}
+
+

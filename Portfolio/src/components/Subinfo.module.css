@@ -1,0 +1,166 @@
+.subinfoContainer {
+  display: flex;
+
+  width: 1000px;
+  height: 506px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  background-color: white;
+
+  gap: 120px;
+  padding: 36px;
+  /* border: 1px solid black; */
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.1);
+  align-self: center;
+  z-index: 2;
+ 
+  /* background: linear-gradient(
+    rgb(227, 250, 245),
+    rgb(245, 230, 251),
+    rgb(255, 239, 214)
+  ); */
+
+
+}
+
+.imageiconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  height: 424px;
+  width: 468px;
+  
+}
+.rightContainer {
+  height: 424px;
+  width: 383px;
+  box-sizing: border-box;
+  padding:12px;
+}
+.subImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+.iconContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  height: 62px;
+  width: 320px;
+  box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  background-color: white;
+  margin-top: 330px;
+  padding: 6px;
+  border-radius: 2px;
+}
+.subinfoHeading {
+  font-size: 45px;
+  white-space: nowrap;
+}
+.projectBtn {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  white-space: nowrap;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 4px;
+  text-align: center;
+}
+.resumeBtn {
+  height: 40px;
+  width: 168px;
+  background-color: white;
+  white-space: nowrap;
+  border: none;
+  color: blueviolet;
+  cursor: pointer;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s, color 0.3s;
+
+
+}
+.resumeBtn:hover 
+{
+
+  background-color: blueviolet;
+  color:white;
+
+}
+.resumeBtn:hover .downloadIcon {
+  fill: white; /* Fill color when button is hovered */
+}
+/* .downloadIcon:hover{
+  fill:white
+
+} */
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 36px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+/* .abdul:hover svg path {
+  fill: white;
+  background-color: blueviolet;
+}
+
+.abdul:active {
+  background-color: blueviolet;
+}
+
+.abdul svg path:hover {
+  fill: white;
+}
+.abdul svg path:active {
+  fill: white;
+} */
+.abdul {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s, fill 0.3s;
+}
+
+.abdul:hover {
+  fill: white;
+  background-color: blueviolet;
+}
+
+.abdul:active {
+  background-color: blueviolet;
+  fill: white;
+}
+/* .abdul svg path:hover {
+  fill: white;
+}
+.abdul svg path:active {
+  fill: white;
+} */
